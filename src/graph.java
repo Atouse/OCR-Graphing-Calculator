@@ -67,7 +67,6 @@ public class graph extends JFrame {
 		g.drawPolyline(xpts,ypts,this.length);		
 	}
 	
-	//VIC REPLACE THIS FUNCTION WITH YOUR RECIPROCAL FUNCTION. THE REST IS DONE.
 	public int[][] rFunc(int negdeg) {
 		int[] xpts = new int[this.length];
 		int[] ypts = new int[this.length];
